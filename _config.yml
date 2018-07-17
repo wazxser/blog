@@ -1,5 +1,5 @@
 title: Moon
-subtitle: Enjoy codeing
+subtitle: 
 description: wazxser
 author: null
 language: zh-Hans
@@ -45,9 +45,9 @@ pagination_dir: page
 theme: next
 deploy:
   type: git
-  repo: 'https://github.com/wazxser/wazxser.github.io.git'
+  repo: 'git@github.com:wazxser/wazxser.github.io.git'
   branch: master
-  repository: 'https://github.com/wazxser/wazxser.github.io.git'
+  repository: 'git@github.com:wazxser/wazxser.github.io.git'
 algolia:
   applicationID: PK6RC6KUDU
   apiKey: 31b4442fc143290f177fce7bc0a3195c
