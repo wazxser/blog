@@ -1,5 +1,5 @@
 title: Moon
-subtitle: 
+subtitle:
 description: wazxser
 author: null
 language: zh-Hans
@@ -37,6 +37,7 @@ index_generator:
 default_category: uncategorized
 category_map:
   编程语言: codeing_language
+  环境搭建: build_environment
 tag_map: null
 date_format: YYYY-MM-DD
 time_format: 'HH:mm:ss'
