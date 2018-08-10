@@ -14,6 +14,7 @@ categories:
 # CPLEX
 CPLEX是IBM发布的一款软件，提供了用来求解线性规划（LP）等相关问题的函数库，并且支持Python、Matlab等多种语言的调用，详细介绍可以参考IBM的官方介绍文档。
 
+试过pip install cplex和conda install -c IBMDecisionOptimization docplex cplex这两种，import cplex没有问题，但是跑实验时会报错求解问题size超过限制。
 有安装可执行文件，所以双击正常安装，需要java环境，按照提示操作就可以，安装完成后的界面和eclipse相似。
 
 # Anaconda
