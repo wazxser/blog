@@ -22,7 +22,7 @@ titlecase: false
 external_link: true
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -55,3 +55,14 @@ algolia:
   adminApiKey: 433d4543df2cb57bc5aa9c33e5671722
   indexName: wazxser
   chunkSize: 5000
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
